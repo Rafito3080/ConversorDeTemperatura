@@ -5,7 +5,7 @@ int main(){
     double temp;
     double resu1, resu2;
     int escolha;
-    cout << "Escolha qual temperatura deseja calcular: \nSe desejar usar Kelvin, pressione 1. \nSe desejar usar Fahrenheit, pressione 2. \nCaso queira usar Celcius, pressione 3. \n";
+    cout << "Escolha qual temperatura deseja converter: \nSe desejar usar Kelvin, pressione 1. \nSe desejar usar Fahrenheit, pressione 2. \nCaso queira usar Celcius, pressione 3. \n";
     cin >> escolha;
     do{
         switch (escolha) {
